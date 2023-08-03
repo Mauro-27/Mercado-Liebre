@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    background-color: #ebebeb;
+}
+
+
+.main-header {
+    background-color: #EAC926;
+    padding: 20px;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+
+.buscador {
+    background-color: #ebebeb;
+    margin-left: 10px;
+    height: 25px;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 2px;
+}
+
+
+.navbar {
+    background-color:#ebebeb;
+    color:#666;
+    height: 25px;
+    margin-left:20px;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 2px;
+}
+
+.img-navbar {
+    display: flex;
+}
+
+.juntar {
+    display: flex;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+.copy-header {
+    font-size: 15px;
+    font-weight: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.menu-burger {
+    background-color: #03264C;
+    color: #ffff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+
+.main-navbar {
+    display: none;
+}
+
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    color: #000000d3;
+}
+
+
+.envio-logo {
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    text-align: left;
+    margin: 10px auto;
+    color: rgb(4, 170, 4);
+}
+
+.precios {
+    font-size: 18px;
+    text-align: left;
+}
+
+
+.descuentos {
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 20px;
+    color: #39b54a;
+}
+
+.descripcion {
+    display: none;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    transition: display contents;
+}
+
+.descripcion:hover {
+    display:flex;
+}
+
+main section article i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    color: #39b54a;
+}
+
+div.ultima-visita,
+div.ofertas {
+    display: flex;
+    flex-wrap: wrap;
+}   
+
+
+h3 {
+    font-size: 24px;
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.logo-footer {
+    font-size: 2em;
+    color:rgb(42, 91, 249);
+}
+
+.espacio-footer {
+    margin: 0;
+    padding: 0;
+}
+
+.copyright {
+    text-align: left;
+}
+
+main {
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+}
+
+
+.main-articulos {
+    border-top: 1px solid #ebebeb ;
+}
+
+.articulos {
+    margin-bottom: 10px;
+    border-top: 1px solid black;
+    padding: 15px; 
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(222, 0, 0);
+}
+
+
+div article div.main-articulos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+
+
+@media (min-width: 350px) {
+    .img-articulos {
+        width: 300px;
+    }
+    .descripcion {
+        position: relative;
+    }
+    .h3-register {
+        text-align: left;
+    }
+}
+
+
+@media (min-width: 728px) {
+    .main-header-top-bar {
+        justify-content: space-between;
+    }
+    main section article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    main section div.productos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    main section div.descripcion {
+        display: block;
+    }
+    main section div.productos article{
+        width: 45%;
+        margin: 10px 0;
+    }
+    .logo {
+        width: 180px;
+        margin-bottom: 10px;
+    }
+    .img-articulos {
+        width: 270px;
+        height: 280px;
+    }
+    h3 {
+        text-align: left;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .copy-header {
+        text-align: center;
+    }
+    .menu-burger {
+        display: none;
+    }
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-navbar ul {
+        display: flex;
+    }
+    .main-navbar li {
+        margin: 0 5px;
+    }
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .caja-footer {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main-header-top-bar, .main-navbar {
+        border: black;
+        max-width: 1200px;
+        margin: auto;
+    }
+    .logo {
+        width: 370px;
+    }
+    .navbar {
+        margin-left: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+    main section div.productos article{
+        width: 22%;
+    }
+    .copy-header {
+        position: relative;
+        max-width: none;
+        text-align: right;
+        bottom: 50px;
+    }
+    .img-articulos {
+        width: 240px;
+        height: 300px;
+    }
+    h3 {
+        text-align: left;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .main-navbar li {
+        margin: 0 10px;
+    }
+    .main-navbar a {
+        font-size: 19px;
+    }
+    .navbar {
+        position: relative;
+        top: 45px;
+    }
+    .buscador {
+        position: relative;
+        top: 45px;
+    }
+    .main {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .caja-footer {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+.input-register {
+    display: flex;
+    margin-top: 15px;
+}
+
+label {
+    display: flex;
+}
+
+.h3-register {
+    margin-top: 10px;
+}
+
+.juntar-register {
+    display: flex;
+    align-items: baseline;
+}
+
+.boton-register {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px;
+    font-size: 16px;
+    align-content: center;
+}
+
+
+.inicio {
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.controles {
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid  white;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="\css\style.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://fontawesome.com/icons?d=gallery&m=free">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/f7ce8fc261.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content= "width=device-whid th, initial-scale=1">
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-header-top-bar">
+         <div class="img-navbar">
+             <img src="/images/logo-mercado-liebre.svg" class="logo">
+             <div class="juntar">
+             <div class="navbar">Buscar productos, marcas y más</div> <br>
+             <div class="buscador">
+                 <i class="fa-solid fa-magnifying-glass"></i>
+             </div>
+             </div>
+         </div>
+         
+         
+         <h2 class="copy-header">
+             <i class="fa-solid fa-hand-holding-dollar"></i>
+             Compra en cuotas y sin tarjeta de credito
+         </h2>
+        </div>
+        <a href="#" class="menu-burger"><i class="fa-solid fa-bars"></i></a>
+        <nav class="main-navbar">
+         <ul class="left-navbar">
+             <li><a href="#">Ofertas</a></li>
+             <li><a href="#">Tiendas Oficiales</a></li>
+             <li><a href="#">Vender</a></li>
+             <li><a href="#">Ayuda</a></li>
+         </ul>
+ 
+         <ul class="rigth-navbar">
+             <li><a href="/register">Crea tu cuenta</a><i class="fa-regular fa-address-card"></i></li>
+             <li><a href="/login">Ingresar</a><i class="fa-solid fa-right-to-bracket"></i></li>
+             <li><a href="#">Mis compras</a><i class="fa-solid fa-basket-shopping"></i></li>
+         </ul>
+        </nav>
+     </header>
+
+     <section class="banner">
+        <img src="images/img-home-banner.jpg" alt="Banner de ofertas">
+    </section>
+
+     <main>
+        <form action="/register" method="post">
+
+            <label for="Nombre y Apellido" ></label>
+            <input class="controles" type="text" placeholder="Nombre y Apellido">
+            <label for="Nombre de Usuario"></label>
+            <input class="controles" type="text" placeholder="Nombre de Usuario">
+            <label for="E-mail"></label>
+            <input class="controles" type="email" placeholder="E-mail">
+
+
+            <label for="Fecha de Nacimiento"></label>
+            <h3 class="h3-register">Fecha de nacimiento</h3>
+            <input class="controles" type="date" placeholder="mm/dd/yyyy">
+            <label for="Domicilio"></label>
+            <input class="controles" type="text" placeholder="Domicilio">
+
+
+
+            <label for="Perfil del Usuario"></label>
+            <h3 class="h3-register">Perfil del Usuario</h3>
+            <div class="juntar-register">
+                <input class="input-register" type="radio" name="tipo-de-usuario" value="Comprador">
+                <label for="" class="separar-register">Comprador</label>
+            </div>
+            
+            <div class="juntar-register">
+                <input class="input-register" type="radio" name="tipo-de-usuario" value="Vendedor">
+                <label for="" class="separar-register">Vendedor</label>
+            </div>
+            
+
+
+ 
+            <label for="Intereses"></label>
+            <h3 class="h3-register">Intereses</h3>
+            <div class="juntar-register">
+                <input class="input-register" type="checkbox" name="Intereses" value="Electro">
+                <p class="separar-register">Electro</p>
+            </div>
+            
+            <div class="juntar-register">
+                <input class="input-register" type="checkbox" name="Intereses" value="Moda">
+                <label for="" class="separar-register">Moda</label>
+            </div>
+            
+            <div class="juntar-register">
+                <input class="input-register" type="checkbox" name="Intereses" value="Hogar">
+                <label for="" class="separar-register">Hogar</label>
+            </div>
+            
+            <div class="juntar-register">
+                <input class="input-register" type="checkbox" name="Intereses" value="Jugeteria">
+                <label for="" class="separar-register">Jugeteria</label>
+            </div>
+            
+            <div class="juntar-register">
+                <input class="input-register" type="checkbox" name="Intereses" value="Vida Sana">
+                <label for="" class="separar-register">Vida Sana</label>
+            </div>
+            
+
+
+            <button type="submit" class="boton-register">Enviar</button>
+
+        </form>
+    </main>
+
+
+
+    <footer>
+        <div class="caja-footer">
+            <div>
+                <p class="logo-footer"><i class="fa-solid fa-credit-card"></i></p>
+                <h4> Paga con tarjeta o en efectivo</h4>
+                <p class="espacio-footer">
+                    Con MercadoLibreCash tenes cuotas sin <br>
+                    interes con tarjeta o efectivo en puntos de <br>
+                    pago ¡Y siempre es seguro!
+                </p>
+            </div>
+            <br>
+            <div>
+                <p class="logo-footer"><i class="fa-solid fa-gift"></i></p>
+                <h4>Envio gratis  desde los $2.500</h4>
+                <p class="espacio-footer">
+                    Solo por estar registrad@ en MercadoLiebre <br>
+                    tenes envios gratis en miles de productos. Es <br>
+                    un beneficio en MercadoPuntos
+                </p>
+            </div>
+            <br>
+            <div>
+                <p class="logo-footer"><i class="fa-solid fa-user-shield"></i></p>
+                <h4>Seguridad de principio a fin</h4>
+                <p class="espacio-footer">
+                    ¿No te gusta? ¡Devolvelo! En MercadoLiebre <br>
+                    no hay nada que no puedas hacer porque <br>
+                    estas siempre protegid@
+                </p>
+            </div>
+        </div>
+                <br>
+                <p class="copyright">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>   
+    </footer>
+
+
+</body>
+</html>
