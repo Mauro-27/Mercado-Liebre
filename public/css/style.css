@@ -108,14 +108,14 @@ section.banner img{
 
 
 .descuentos {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: normal;
     padding-left: 30px;
     color: #39b54a;
 }
 
 .descripcion {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     margin-top: 20px;
     opacity: 0;
@@ -124,9 +124,7 @@ section.banner img{
 
 .descripcion:hover {
     opacity: 1
-
 }
-
 
 main section article i {
     display: block;
